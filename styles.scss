@@ -1,0 +1,175 @@
+$main-color:#56a79a;
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+    margin-top: 80px;
+}
+
+#navbar {
+    margin-right: 40px;
+}
+
+h2 {
+    margin: 35px;
+    display: block !important;
+}
+
+h5 {
+    margin-left: -4px;
+}
+
+li {
+    a:hover {
+        border-bottom: 2px solid $main-color;
+    }
+}
+
+#about {
+    margin-top: -20px;
+    border-bottom: 2px solid #00A1A7;
+}
+
+.centering {
+    margin-left: 140px;
+}
+
+.list-group {
+    width: 50%;
+    margin: auto;
+    li {
+        margin-bottom: 15px;
+    }
+    li:nth-child(10) {
+        margin-bottom: 15px;
+    }
+}
+
+.hexagon {
+    .fa {
+        display: block;
+        color: #fff;
+        font-size: 50px;
+        text-align: center;
+    }
+}
+
+.hexagon {
+    position: relative;
+    width: 80px;
+    height: 46.19px;
+    background-color: #64C7CC;
+    margin: 23.09px 0;
+}
+
+.hexagon:before,
+.hexagon:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+}
+
+.hexagon:before {
+    bottom: 100%;
+    border-bottom: 23.09px solid #64C7CC;
+}
+
+.hexagon:after {
+    top: 100%;
+    width: 0;
+    border-top: 23.09px solid #64C7CC;
+}
+
+ul.list-group {
+    li {
+        text-align: center;
+        img {
+            height: 50px;
+            margin: 15px;
+        }
+        i {
+            font-size: 45px;
+            margin: 40px;
+        }
+    }
+}
+
+.skill_bar {
+    max-width: 90%;
+    height: 20px;
+    background: #c0c0c0;
+    margin: auto;
+    border-radius: 2px;
+}
+
+.skill_bar_progress {
+    width: 0%;
+    height: 100%;
+    background: #64C7CC;
+    border-radius: 2px;
+}
+
+#skills {
+    border-bottom: 2px solid #00A1A7;
+    background: #e6e6e6;
+}
+
+.gallery {
+    display: inline;
+    margin-top: 20px;
+}
+
+#projects {
+    border-bottom:2px solid #00A1A7;
+    img {
+        width: 350px;
+        margin: 20px;
+        margin-bottom: 50px;
+        border-radius: 4px;
+        border: 2px solid $main-color;
+    }
+}
+
+#about-me {
+    border-bottom: 2px solid $main-color;
+    h1 {
+        margin-bottom: 20px;
+    }
+}
+
+#contact{
+    margin:15px;
+    i{
+        font-size:30px;
+        left:0;
+    }
+}
+
+footer{
+    margin-top:100px;
+}
+
+@media(max-width:900px) {
+    .centering {
+        margin-left: 200px;
+    }
+    
+}
+
+@media(min-width:901px){
+
+    #projects {
+        .row{
+            div{
+               display:inline;
+              
+                
+            }
+        }
+    }
+}
